@@ -12,7 +12,7 @@ import javax.swing.SwingUtilities;
 
 
 public class JSession {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> createAndShowGUI());
     }
 
@@ -35,5 +35,6 @@ public class JSession {
         frame.setVisible(true);
 
         System.out.println("JDE Session Manager: GUI is visible. Session started");
+
     }
 }
